@@ -5,7 +5,7 @@ A login service for Layer7 OAuth2.0. See the project page on Meteor Accounts for
 
 Currently only `authorization_code` grant type is supported. 
 
-WARNING: It looks like there is an issue with OAuth2 login when running mobile apps in local development mode.
+WARNING: It looks like there is an issue with OAuth2 login when running mobile apps in local development mode. For workarounds see https://github.com/meteor/meteor/wiki/OAuth-for-mobile-Meteor-clients
          
          Meteor's OAuth2 implementation does not currently work with
          mobile apps in local development mode, except in the iOS
