@@ -8,15 +8,16 @@ Currently only `authorization_code` grant type is supported.
 UserInfo Endpoint
 -----------------
 
-Whitelisted feilds for UserInfo Endpoint are: 
+### Whitelisted feilds for UserInfo Endpoint are
+
 ```javascript
 ['id', 'email', 'name', 'first_name', 'last_name', 'link', 'username', 'gender', 'locale', 'age_range']
 ```
-### Why you should care about the whitelisted fields
+### Why you should care about the whitelisted fields?
 
 If your UserInfo endpoint contains any of the whitelisted fields, they will be stored in the user profile, all the other other feilds will be ignored. It is important to atleast have the `name` field in your UserInfo endpoint to dipspaly the user's name when they login.
 
-### Here is a suggested UserInfo json result:
+### Here is a suggested UserInfo json result
 
 ```javascript
 {
