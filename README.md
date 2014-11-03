@@ -8,7 +8,7 @@ Currently only `authorization_code` grant type is supported.
 UserInfo Endpoint
 -----------------
 
-Whitelisted feilds for UserInfo page are: 
+Whitelisted feilds for UserInfo Endpoint are: 
 ```javascript
 ['id', 'email', 'name', 'first_name', 'last_name', 'link', 'username', 'gender', 'locale', 'age_range']
 ```
