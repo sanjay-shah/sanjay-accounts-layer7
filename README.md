@@ -1,4 +1,4 @@
-sanjay-accounts-layer7
+sanjay:accounts-layer7
 ======================
 
 A login service for Layer7 OAuth2.0. See the project page on Meteor Accounts for more details.
