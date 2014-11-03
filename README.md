@@ -50,9 +50,9 @@ if (Meteor.isServer) {
       service: "layer7",
       appId: "54f0c455-4d80-421f-82ca-9194df24859d",
       secret: "a0f2742f-31c7-436f-9802-b7015b8fd8e6",
-      authorizeEndpoint: "http://192.168.199.130:8080/meteor/auth/oauth/v2/authorize",
-      tokenEndpoint: "http://192.168.199.130:8080/meteor/auth/oauth/v2/token",
-      userInfoEndpoint: "http://192.168.199.130:8080/meteor/me"
+      authorizeEndpoint: "http://example.com/auth/oauth/v2/authorize",
+      tokenEndpoint: "http://example.com/auth/oauth/v2/token",
+      userInfoEndpoint: "http://example.com/userInfo/me"
     });
 }
 ```
