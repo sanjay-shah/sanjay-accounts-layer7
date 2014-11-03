@@ -1,7 +1,7 @@
 sanjay:accounts-layer7
 ======================
 
-A login service for Layer7 OAuth2.0. See the project page on Meteor Accounts for more details.
+A login service for Layer7 OAuth2.0. See the project page on Meteor Accounts for more details: https://www.meteor.com/accounts
 
 Currently only `authorization_code` grant type is supported. 
 
