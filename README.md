@@ -16,7 +16,7 @@ WARNING: It looks like there is an issue with OAuth2 login when running mobile a
 UserInfo Endpoint
 -----------------
 
-### Whitelisted feilds for UserInfo Endpoint are
+### Whitelisted feilds for UserInfo Endpoint
 
 ```javascript
 ['id', 'email', 'name', 'first_name', 'last_name', 'link', 'username', 'gender', 'locale', 'age_range']
